@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./out",
+    "module": "commonjs",
+    "target": "es6",
+    "types": [
+      "node", "mocha", "chai", "chai-spies", "debug"
+    ]
+  },
+  "include": [
+    "./index.ts",
+    "./src/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "tests"
+  ]
+}
